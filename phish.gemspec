@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Phish::VERSION
   spec.authors       = ["Cole Willsea"]
   spec.email         = ["coleww@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Array#phish: like push, but inserts the element like, oh, just anywhere you want, it's chill.}
+  spec.homepage      = "https://github.com/coleww/phish"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

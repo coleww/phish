@@ -1,6 +1,16 @@
 # Phish
 
-TODO: Write a gem description
+Array#phish: like `push`, but inserts the element like, oh, just anywhere you want, it's chill, I'm pretty easy going about things like that.
+
+## Usage
+
+```ruby
+list = ['bob']
+list.phish('robert')
+# now list either looks like ['robert', 'bob'] or ['bob', 'robert']
+# you know, because we should all chill and stop worrying about things
+# like the order of elements, just let it flow, ok, be free.
+```
 
 ## Installation
 
@@ -18,9 +28,13 @@ Or install it yourself as:
 
     $ gem install phish
 
-## Usage
+Also you should probably do something like:
 
-TODO: Write usage instructions here
+```ruby
+require 'phish'
+```
+
+Which will monkey patch Array.
 
 ## Contributing
 
